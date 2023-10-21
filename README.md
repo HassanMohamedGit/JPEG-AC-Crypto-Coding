@@ -41,7 +41,7 @@ you can change the quality factor (the number just after the flag ***-quality***
   
    `$$ ./jpegInsert -q 95 -v -a sample-image.pnm sample-image-AES-AC.jpg`
     
-   - To generate an encrypted image using AES, use the following steps:
+- To generate an encrypted image using AES, use the following steps:
 
    `$$ openssl enc -aes-256-ctr -in sample-image.bmp -out tmp.bmp -K 0000000000000000000000000000000000000000000000000000000000000000 -iv 00000000000000000000000000000000`  
    `$$ dd if=sample-image.bmp of=tmp.bmp bs=1 count=54 conv=notrunc`
