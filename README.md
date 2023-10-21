@@ -35,11 +35,13 @@ you can change the quality factor (the number just after the flag ***-quality***
    `$$ ./djpeg-static-1bit -outfile sample-image-1BitErr-decoded.bmp sample-image-encrypted.jpg`
 - The programs ***cjpeg-static-crypt***, ***cjpeg-static-orig***, ***cjpeg-static-1bit***, and *** jpegInsert*** have the same usages and same CMD flags.
 - The programs ***djpeg-static-crypt***, ***djpeg-static-orig***, and ***djpeg-static-1bit*** have the same usages and same CMD flags.
-- To use ***jpegInsert*** for generating images like Fig.5 in [1], a file named ***rand.bin*** must be in the same directory as ***jpegInsert***, then follow these steps:
+- To use ***jpegInsert*** for generating images like Fig.5 in [1], a file named ***rand.bin*** must be in the same directory as ***jpegInsert***, then follow these steps (as it has different implementation from other programs):
   
    `$$ convert sample-image.bmp sample-image.pnm`
   
    `$$ ./jpegInsert -q 95 -v -a sample-image.pnm sample-image-AES-AC.jpg`
+
+  you can change the quality factor (the number just after the flag ***-q***) or use the optional flag ***-v*** for progressive scan, but using the flag ***-a*** is mandatory to generate images like Fig.5 in [1].
     
 - To generate an encrypted image using AES, use the following steps:
 
