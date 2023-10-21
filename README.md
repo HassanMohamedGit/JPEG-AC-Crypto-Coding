@@ -36,8 +36,9 @@ you can change the quality factor (the number just after the flag ***-quality***
 - To use ***jpegInsert*** for generating images like Fig.5 in [1], , a file named ***rand.bin*** must be in the same directory as ***jpegInsert***. and use the same command-line flags like ***cjpeg-static-crypt***, ***cjpeg-static-orig***, and ***cjpeg-static-1bit***.
 To generate an encrypted image using AES, use the following steps:
 
-   `$$ openssl enc -aes-256-ctr -in sample-image.bmp -out tmp.bmp -K 0000000000000000000000000000000000000000000000000000000000000000 -iv 00000000000000000000000000000000`
+   `$$ openssl enc -aes-256-ctr -in sample-image.bmp -out tmp.bmp -K 0000000000000000000000000000000000000000000000000000000000000000 -iv 00000000000000000000000000000000`  
    `$$ dd if=sample-image.bmp of=tmp.bmp bs=1 count=54 conv=notrunc`
+  
    `$$ convert tmp.bmp sample-image-AES.bmp`
 
 -----------------
