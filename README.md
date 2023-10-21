@@ -43,7 +43,7 @@ you can change the quality factor (the number just after the flag ***-quality***
   
    `$$ convert tmp.bmp sample-image-AES.bmp`
 
-- It should be noted that the QM-coder (the Arithmetic coder for JPEG) is not implemented by default in most Windows applications and MATLAB (via ***imread*** command). For Linux, ***Shotwell*** image-viewer and CMD utilities of ***imagemagick*** package or other official JPEG packages such as ***libjpeg*** or ***libjpeg-turbo*** work fine. 
+- It should be noted that the QM-coder (the Arithmetic coder for JPEG) is not implemented by default in most Windows applications and MATLAB (via ***imread*** command). For Linux, ***Shotwell*** image-viewer, CMD utilities of ***imagemagick*** package, and other official JPEG packages such as ***libjpeg*** or ***libjpeg-turbo*** work fine. 
 
 -------------------------------------
 ### References:
