@@ -43,5 +43,6 @@ To generate an encrypted image using AES, use the following steps:
 -----------------
 ### References:
 [1] Hassan Y. El-Arsh Mohamed, Amr Abdelaziz, Ahmed Elliethy, Hussein A. Aly and Alaa Eldin Rohiem Shehata, "Joint Compression-Encryption Technique Based On Arithmetic Coding for JPEG Images", Nilesconf2023, ***Not published yet***.
+
 [2] https://github.com/thorfdbg/libjpeg
 
