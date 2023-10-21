@@ -43,7 +43,7 @@ To generate an encrypted image using AES, use the following steps:
   
    `$$ convert tmp.bmp sample-image-AES.bmp`
 
-  - It should be noted that QM-coder (Arithmetic coder for JPEG) is not implemented by default in most Windows applications and MATLAB (via ***imread*** command). For Linux, I have tried ***Shotwell*** image-viewer and CMD utilities of ***imagemagick*** package or other official JPEG packages such as ***libjpeg*** or ***libjpeg-turbo***. 
+- It should be noted that QM-coder (Arithmetic coder for JPEG) is not implemented by default in most Windows applications and MATLAB (via ***imread*** command). For Linux, I have tried ***Shotwell*** image-viewer and CMD utilities of ***imagemagick*** package or other official JPEG packages such as ***libjpeg*** or ***libjpeg-turbo***. 
 
 -------------------------------------
 ### References:
