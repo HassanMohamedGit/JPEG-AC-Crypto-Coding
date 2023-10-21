@@ -16,12 +16,12 @@ This Repo contains the implementation of the paper titled: "**Joint Compression-
 -------------------------------------
 ### How to use the above programs
 **The above programs run on a 64-bit Linux environment (Ubuntu 22.04). Here are some examples for usage:**
-- To encrypt an image, you need first to convert it to PNM format. The following example uses ***imagemagick*** package:
+- To encrypt an image, you must first convert it to PNM format. The following example uses ***imagemagick*** package:
 
-   `$$ convert sample-image.bmp samle-image.pnm`
+   `$$ convert sample-image.bmp sample-image.pnm`
 - The second step to get an encrypted image is:
 
-   `$$ ./cjpeg-static-crypt -arithmetic -progressive -outfile sample-image-encrypted.jpg -quality 95 samle-image.pnm`
+   `$$ ./cjpeg-static-crypt -arithmetic -progressive -outfile sample-image-encrypted.jpg -quality 95 sample-image.pnm`
   
 you can change the quality factor (the number just after the flag ***-quality***) or use the optional flag ***-progressive*** for progressive scan, but using the flag ***-arithmetic*** is mandatory for encryption.
 - For correctly decoding ***sample-image-encrypted.jpg***, use:
@@ -43,7 +43,9 @@ To generate an encrypted image using AES, use the following steps:
   
    `$$ convert tmp.bmp sample-image-AES.bmp`
 
------------------
+  - It should be noted that QM-coder (Arithmetic coder for JPEG) is not implemented by default in most Windows applications and MATLAB (via ***imread*** command). For Linux, I have tried ***Shotwell*** image-viewer and CMD utilities of ***imagemagick*** package or other official JPEG packages such as ***libjpeg*** or ***libjpeg-turbo***. 
+
+-------------------------------------
 ### References:
 [1] Hassan Y. El-Arsh Mohamed, Amr Abdelaziz, Ahmed Elliethy, Hussein A. Aly and Alaa Eldin Rohiem Shehata, "Joint Compression-Encryption Technique Based On Arithmetic Coding for JPEG Images", Nilesconf2023, ***Not published yet***.
 
