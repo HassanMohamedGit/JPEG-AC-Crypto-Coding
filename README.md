@@ -11,7 +11,7 @@ This Repo contains the implementation of the paper titled: "**Joint Compression-
 
    `$$ dd if=/dev/zero of=Zeros bs=1M count=10`
   
-   `$$openssl enc -aes-256-ctr -in Zero -out rand.bin -K 0000000000000000000000000000000000000000000000000000000000000000 -iv 00000000000000000000000000000000`
+   `$$ openssl enc -aes-256-ctr -in Zero -out rand.bin -K 0000000000000000000000000000000000000000000000000000000000000000 -iv 00000000000000000000000000000000`
 - **Joint Compression-Encryption Technique Based On Arithmetic Coding for JPEG Images.pdf**: The final PDF version of [1].
 -------------------------------------
 ### How to use the above programs
