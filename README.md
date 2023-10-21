@@ -22,6 +22,7 @@ This Repo contains the implementation of the paper titled: "**Joint Compression-
 - The second step to get an encrypted image is:
 
    `$$ ./cjpeg-static-crypt -arithmetic -progressive -outfile sample-image-encrypted.jpg -quality 95 samle-image.pnm`
+  
 you can change the quality factor (the number just after the flag ***-quality***) or use the optional flag *** -progressive*** for progressive scan, but using the flag ***-arithmetic*** is mandatory for encryption.
 - For correctly decoding ***sample-image-encrypted.jpg***, use:
 
