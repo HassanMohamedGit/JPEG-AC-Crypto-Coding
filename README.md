@@ -41,7 +41,7 @@ you can change the quality factor (the number just after the flag ***-quality***
   
    `$$ ./jpegInsert -q 95 -v -a sample-image.pnm sample-image-AES-AC.jpg`
 
-  you can change the quality factor (the number just after the flag ***-q***) or use the optional flag ***-v*** for progressive scan, but using the flag ***-a*** is mandatory to generate images like Fig.5 in [1].
+  you can change the quality factor (the number just after the flag ***-q***) or use the optional flag ***-v*** for progressive scan, but using the flag ***-a*** (for arithmetic coding) is mandatory to generate images like Fig.5 in [1].
     
 - To generate an encrypted image using AES, use the following steps:
 
