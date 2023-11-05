@@ -54,7 +54,7 @@ you can change the quality factor (the number just after the flag ***-quality***
 
 -------------------------------------
 ### References:
-[1] Hassan Y. El-Arsh Mohamed, Amr Abdelaziz, Ahmed Elliethy, Hussein A. Aly and Alaa Eldin Rohiem Shehata, "Joint Compression-Encryption Technique Based On Arithmetic Coding for JPEG Images", Nilesconf2023, ***Not published yet***.
+[1] H. Y. El-Arsh Mohamed, A. Abdelaziz, A. Elliethy, H. A. Aly and A. Eldin Rohiem Shehata, "Joint Compression-Encryption Technique Based On Arithmetic Coding for JPEG Images," 2023 5th Novel Intelligent and Leading Emerging Sciences Conference (NILES), Giza, Egypt, 2023, pp. 63-66, doi: 10.1109/NILES59815.2023.10296797.
 
 [2] https://github.com/thorfdbg/libjpeg
 
