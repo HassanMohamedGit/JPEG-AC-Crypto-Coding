@@ -1,6 +1,6 @@
 # JPEG-AC-Crypto-Coding
-This Repo contains the implementation of the paper titled: "**Joint Compression-Encryption Technique Based On Arithmetic Coding for JPEG Images**" [1]. The contents are as follows:
-- **cjpeg-static-crypt**: The proposed JPEG encoder with the proposed joint-compresson-encryption in [1] with a randomly-generated fixed-compile-time key (as a proof of concept).
+This Repo contains the implementation of the paper titled: "**Joint Compression-Encryption Technique Based On Arithmetic Coding for JPEG Images**" [1]. The contents are as follow:
+- **cjpeg-static-crypt**: The proposed JPEG encoder with joint-compresson-encryption in [1] with a randomly-generated fixed-compile-time key (as a proof of concept).
 - **cjpeg-static-1bit**: The proposed JPEG encoder in [1] (same as ***cjpeg-static-crypt***) with single bit key different from ***cjpeg-static-crypt***.
 - **cjpeg-static-orig**: The original unmodified standard JPEG encoder.
 - **djpeg-static-crypt**: The JPEG decoder to correctly decode JPEG images encoded with ***cjpeg-static-crypt***.
